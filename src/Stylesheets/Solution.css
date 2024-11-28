@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Rampart+One&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+.solution-container {
+  width: 100%;
+  max-width: 900px;
+  margin: auto;
+  padding: 20px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  font-family: Parkinsans, Arial, sans-serif;
+}
+
+/* Responsive Design */
+@media screen and (max-width: 768px) {
+
+	.solution-container {
+		width: 90%;
+	}
+}
+
+@media screen and (max-width: 480px) {
+	.solution-container {
+		width: 90%;
+	}
+}
+

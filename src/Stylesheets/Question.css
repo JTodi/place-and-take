@@ -1,0 +1,147 @@
+/* Main container styling */
+@import url('https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&family=Rampart+One&family=Tiro+Devanagari+Hindi:ital@0;1&display=swap');
+.question-container {
+    width: 100%;
+    max-width: 900px;
+    margin: auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    font-family: Parkinsans, Arial, sans-serif;
+  }
+  
+  /* Header Styling */
+  .question-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+  
+  .question-title {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+    margin: 0;
+  }
+  
+  .question-tags {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .question-tag {
+    padding: 5px 10px;
+    border-radius: 20px;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #fff;
+  }
+  
+  .expected-value {
+    background-color: #9f8df5;
+  }
+  
+  .easy {
+    background-color: #a8df65;
+  }
+  
+  .medium {
+    background-color: #f7c74a;
+  }
+  
+  .hard {
+    background-color: #f56b6b;
+  }
+  
+  /* Body Styling */
+  .question-body {
+    margin-top: 20px;
+  }
+  
+  .question-description {
+    font-size: 1rem;
+    color: #555;
+    margin-bottom: 15px;
+  }
+  
+  .question-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .question-text {
+    flex: 1;
+    background-color: rgb(239 246 255 );
+    padding: 1rem;
+    border-radius: 10px;
+  }
+  
+  .question-text h2 {
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .question-text p {
+    font-size: 1rem;
+    color: #444;
+  }
+  
+  /* Image Styling */
+  .question-image {
+    width: 192px;
+    height:192px;
+    max-width: 192px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  /* Responsive Design */
+  @media screen and (max-width: 768px) {
+    .question-content {
+      flex-direction: column;
+      align-items: flex-start;
+    }
+  
+    .question-image {
+      max-width: 100%;
+    }
+
+    .question-tag {
+        font-size: 0.8rem;
+    }
+
+    .question-container {
+        width: 90%;
+    }
+  }
+  
+  @media screen and (max-width: 480px) {
+    .question-container {
+      width: 90%;
+    }
+
+    .question-title {
+      font-size: 1.3rem;
+    }
+  
+    .question-tag {
+      font-size: 0.8rem;
+    }
+  
+    .question-text h2 {
+      font-size: 1rem;
+    }
+  
+    .question-text p {
+      font-size: 0.8rem;
+    }
+  }
+  
